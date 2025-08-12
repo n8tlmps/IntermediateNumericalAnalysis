@@ -89,7 +89,5 @@ if __name__ == "__main__":
     p2 = solve_jacobi(A2, b2, N, tol)
     print(p2)
 
-    print("yaayyyy")
-
     
     
