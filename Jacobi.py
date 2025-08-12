@@ -3,8 +3,6 @@ import numpy as np
 # P_i = 0.5P_{i-1} + 0.5P_{i+1} for each i = 1, 2, ..., n-1
 # P_0 = 1 and P_N = 0
 
-
-
 def create_matrix(n):
     A = np.zeros((n-1, n-1))
 
@@ -17,6 +15,8 @@ def create_matrix(n):
 
     return A
 
+# P_i = alpha * P_{i-1} + (1 - alpha) * P_{i+1}
+# P_0 = 1 and P_N = 0
 def create_matrix_alpha(n, alpha):
     A = np.zeros((n-1, n-1))
 
@@ -29,11 +29,13 @@ def create_matrix_alpha(n, alpha):
 
     return A
 
+# b = (0.5, 0, ..., 0)
 def create_rhs_b(n):
     b = np.zeros(n-1)
     b[0] = 0.5
     return b
 
+# b = (alpha, 0, ..., 0)
 def create_rhs_b_alpha(n, alpha):
     b = np.zeros(n-1)
     b[0] = alpha
