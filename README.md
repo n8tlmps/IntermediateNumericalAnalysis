@@ -6,8 +6,10 @@
 - Orthogonal Polynomials and Least Squares Approximations
 - Cheyshev Polynomials
 - FFT for Trigonometric Polynomial Approximation
+- SVD
 
 ### Coming soon:
-- SVD
+
 - Power Method
 - QR Algorithm (with and without Householder Reduction)
+
