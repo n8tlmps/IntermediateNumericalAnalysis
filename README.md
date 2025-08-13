@@ -6,10 +6,10 @@
 - Orthogonal Polynomials and Least Squares Approximations
 - Cheyshev Polynomials
 - FFT for Trigonometric Polynomial Approximation
-- SVD
+- Singular Value Decomposition (SVD)
 
 ### Coming soon:
-
 - Power Method
 - QR Algorithm (with and without Householder Reduction)
+
 
